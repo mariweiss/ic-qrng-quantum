@@ -1,6 +1,4 @@
 # QRNG + Machine Learning — IC Computação Quântica
-**Inatel — Mariana Bissaro Weiss**
-
 Geração e validação de números quânticos aleatórios (QRNG) com análise por Machine Learning.
 
 ---
