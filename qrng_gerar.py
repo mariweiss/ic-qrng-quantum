@@ -17,8 +17,7 @@ os.makedirs(output_dir, exist_ok=True)
 print(f"✓ Pasta criada: {output_dir}")
 
 # --- Conexão IBM Quantum ---
-IBM_TOKEN = "THgevgQ9RdqgZOZIy8pQr1NQrrzVsJ1Yd02UE9eNilBl"
-
+IBM_TOKEN = os.getenv("IBM_TOKEN")
 QiskitRuntimeService.save_account(
     channel='ibm_cloud',
     token=IBM_TOKEN,
