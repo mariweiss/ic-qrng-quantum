@@ -1,0 +1,17 @@
+PASSOU: Monobit
+PASSOU: Frequency Within Block
+PASSOU: Runs
+PASSOU: Longest Run Ones In A Block
+PASSOU: Binary Matrix Rank
+FALHOU: Discrete Fourier Transform
+PASSOU: Non Overlapping Template Matching
+FALHOU: Overlapping Template Matching
+FALHOU: Maurers Universal
+FALHOU: Linear Complexity
+FALHOU: Serial
+FALHOU: Approximate Entropy
+PASSOU: Cumulative Sums
+FALHOU: Random Excursion
+PASSOU: Random Excursion Variant
+
+Total: 8 passaram, 7 falharam
