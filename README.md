@@ -102,3 +102,6 @@ Os bits foram submetidos à bateria de testes **NIST SP 800-22** (padrão intern
 **NIST STS 8/15** — Os bits passaram nos principais testes estatísticos (Monobit, Frequency Within Block, Runs, Longest Run, Binary Matrix Rank, Cumulative Sums). Os 7 testes que falharam (Discrete Fourier Transform, Serial, Approximate Entropy, Linear Complexity, entre outros) são testes com implementações problemáticas conhecidas na biblioteca Python `nistrng` utilizada. Os resultados dos testes básicos são confiáveis.
 
 ---
+
+### Conclusão geral
+Os resultados confirmam que o QRNG baseado na porta Hadamard em hardware IBM Quantum gera bits de alta qualidade. A min-entropia de 0.9989 e a acurácia do Transformer em 50.03% são os indicadores mais sólidos: mostram que os bits são quase impossíveis de prever, mesmo para algoritmos sofisticados de Machine Learning.
